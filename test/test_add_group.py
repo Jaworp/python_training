@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from aplication import Aplication
+from fixture.aplication import Aplication
 import pytest
-from group import Group
+from model.group import Group
 
 
 #oznaczenie że to nie jest funkcja, a obiekt typu fixture, mechanizm pytest
